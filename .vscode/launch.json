@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "neww",
+            "request": "launch",
+            "mainClass": "neww",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "bosh",
+            "request": "launch",
+            "mainClass": "bosh",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "friday",
+            "request": "launch",
+            "mainClass": "friday",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "project2",
+            "request": "launch",
+            "mainClass": "project2",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "project3",
+            "request": "launch",
+            "mainClass": "project3",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "project1",
+            "request": "launch",
+            "mainClass": "project1",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "C",
+            "request": "launch",
+            "mainClass": "C",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "B",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "T",
+            "request": "launch",
+            "mainClass": "T",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Ap",
+            "request": "launch",
+            "mainClass": "Ap",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "FILE",
+            "request": "launch",
+            "mainClass": "FILE",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "Java_slot_machine",
+            "request": "launch",
+            "mainClass": "Java_slot_machine",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "PlaySound",
+            "request": "launch",
+            "mainClass": "PlaySound",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "Weight_converter",
+            "request": "launch",
+            "mainClass": "Weight_converter",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "basic_calculator",
+            "request": "launch",
+            "mainClass": "basic_calculator",
+            "projectName": "JavaProjects_e242aa12"
+        }
+    ]
+}
