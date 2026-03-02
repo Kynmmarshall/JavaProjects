@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Day1",
+            "request": "launch",
+            "mainClass": "Day1",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "sat",
+            "request": "launch",
+            "mainClass": "sat",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
             "name": "neww",
             "request": "launch",
             "mainClass": "neww",
