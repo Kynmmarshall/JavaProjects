@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Day1 {
+public class Excercise1 {
     public static void main(String[] args) {
         System.out.println("HELLO WORLD");
         ArrayList<String> student = new ArrayList<String>();
@@ -22,6 +22,10 @@ public class Day1 {
 
         for (int i=0; i< student.size(); i++){
             System.out.printf(student.get(i)+ " ");
+        }
+        System.out.println();
+        for (String i:student){
+            System.out.printf(i+ " ");
         }
     }
     }
