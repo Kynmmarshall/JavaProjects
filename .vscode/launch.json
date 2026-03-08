@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HomeworkArraylist",
+            "request": "launch",
+            "mainClass": "HomeworkArraylist",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "HomeworkLinkedlist",
+            "request": "launch",
+            "mainClass": "HomeworkLinkedlist",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
             "name": "Homework",
             "request": "launch",
             "mainClass": "Homework",
