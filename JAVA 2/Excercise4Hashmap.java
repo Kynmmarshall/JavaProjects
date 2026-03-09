@@ -2,7 +2,7 @@
 import java.util.HashMap;
 
 
-public class Excercise4 {
+public class Excercise4Hashmap {
     public static void main(String[] args) {
         
         HashMap<String,String> Capital = new HashMap<>();

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Excercise2 {
+public class Excercise2Arraylist {
     public static void main(String[] args) {
         ArrayList<Integer> numbs = new ArrayList<Integer> ();
 

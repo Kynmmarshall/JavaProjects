@@ -132,7 +132,7 @@ public class HomeworkLinkedlist {
         System.out.println();
 
         // 19. Remove and return first element
-        String first = colours.poll(); // or removeFirst()
+        String first = colours.poll(); 
         System.out.println("19. Removed first element: " + first + ", list now: " + colours);
         System.out.println();
 
