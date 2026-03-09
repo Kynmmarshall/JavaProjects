@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Excercise7PatternAndMatcher",
+            "request": "launch",
+            "mainClass": "Excercise7PatternAndMatcher",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
             "name": "HomeworkArraylist",
             "request": "launch",
             "mainClass": "HomeworkArraylist",

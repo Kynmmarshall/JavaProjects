@@ -11,5 +11,19 @@ public class Exercise5Hashset{
         cars.add("BMW");
         cars.add("Mazda");
         System.out.println(cars);
+
+        System.out.println(cars.contains("Mazda"));
+
+        cars.remove("Volvo");
+        System.out.println(cars);
+
+        cars.clear();
+        System.out.println(cars);
+
+        System.out.println(cars.size());
+
+        for (String i: cars) {
+            System.out.println(i);
+        }
     }
 }
