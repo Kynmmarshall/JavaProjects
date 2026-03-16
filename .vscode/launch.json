@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "threadExercise",
+            "request": "launch",
+            "mainClass": "threadExercise",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "Threads",
+            "request": "launch",
+            "mainClass": "Threads",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "goodmorning",
+            "request": "launch",
+            "mainClass": "goodmorning",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
             "name": "Homework_ICTU_Email_Validation",
             "request": "launch",
             "mainClass": "Homework_ICTU_Email_Validation",
