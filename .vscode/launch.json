@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Homework_ICTU_Email_Validation",
+            "request": "launch",
+            "mainClass": "Homework_ICTU_Email_Validation",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
             "name": "Excercise7PatternAndMatcher",
             "request": "launch",
             "mainClass": "Excercise7PatternAndMatcher",
