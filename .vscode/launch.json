@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "myFrame2",
+            "request": "launch",
+            "mainClass": "myFrame2",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "myFrame",
+            "request": "launch",
+            "mainClass": "myFrame",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
+            "name": "myFrame",
+            "request": "launch",
+            "mainClass": "GUI.myFrame",
+            "projectName": "JavaProjects_e242aa12"
+        },
+        {
+            "type": "java",
             "name": "threadExercise",
             "request": "launch",
             "mainClass": "threadExercise",
