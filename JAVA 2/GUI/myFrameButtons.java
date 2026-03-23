@@ -2,9 +2,9 @@ import java.awt.Color;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-public class myFrame2 extends JFrame{
+public class myFrameButtons extends JFrame{
     public static void main(String[] args) {
-        myFrame2 kynmwindow2 = new myFrame2();
+        myFrameButtons kynmwindow2 = new myFrameButtons();
         kynmwindow2.setVisible(true);
         kynmwindow2.setSize(800, 500);
         kynmwindow2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
