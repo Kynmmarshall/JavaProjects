@@ -241,6 +241,7 @@ public class LoginPage {
 		signInButton.setBackground(new Color(255, 87, 34));
 		signInButton.setForeground(Color.WHITE);
 		signInButton.setFocusPainted(false);
+		signInButton.setFont(new Font("Arial", Font.BOLD, 22));
 		signInButton.setAlignmentX(Component.RIGHT_ALIGNMENT);
 		rightPanel.add(signInButton);
 
