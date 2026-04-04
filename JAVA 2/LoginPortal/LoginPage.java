@@ -72,14 +72,14 @@ public class LoginPage {
 		leftPanel.setBorder(BorderFactory.createEmptyBorder(100, -200, 100, 30));
 
 		// Welcome text (large font)
-		JLabel welcomeLabel = new JLabel("<html><span style='font-size:56px;font-weight:bold;color:white;'>Welcome<br>Back</span></html>");
+		JLabel welcomeLabel = new JLabel("<html><span style='font-size:56px;font-weight:bold;color:white;'>Welcome<br>Back Guest!</span></html>");
 		welcomeLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 		leftPanel.add(Box.createVerticalGlue());
 		leftPanel.add(welcomeLabel);
 		leftPanel.add(Box.createRigidArea(new Dimension(0, 50)));
 
 		// Description (smaller font)
-		JLabel descLabel = new JLabel("<html><span style='font-size:22px;color:white;'>This is a simple login page by GROUP 22. The design is clean and user-friendly.</span></html>");
+		JLabel descLabel = new JLabel("<html><span style='font-size:22px;color:white;'>This is a simple login page by GROUP 22. The design is clean and user-friendly. I'm Kamdeu Yamdjeuson Neil Marshall Nice to meet you!</span></html>");
 		descLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
 		leftPanel.add(descLabel);
 		leftPanel.add(Box.createRigidArea(new Dimension(0, 50)));
@@ -155,6 +155,23 @@ public class LoginPage {
 		emailField.setFont(new Font("Arial", Font.PLAIN, 22));
 		emailField.setMaximumSize(new Dimension(Integer.MAX_VALUE, 50));
 		emailField.setPreferredSize(new Dimension(0, 50));
+		// Set placeholder for email
+		emailField.setForeground(Color.GRAY);
+		emailField.setText("Enter your email");
+		emailField.addFocusListener(new java.awt.event.FocusAdapter() {
+			public void focusGained(java.awt.event.FocusEvent e) {
+				if (emailField.getText().equals("Enter your email")) {
+					emailField.setText("");
+					emailField.setForeground(Color.BLACK);
+				}
+			}
+			public void focusLost(java.awt.event.FocusEvent e) {
+				if (emailField.getText().isEmpty()) {
+					emailField.setForeground(Color.GRAY);
+					emailField.setText("Enter your email");
+				}
+			}
+		});
 		rightPanel.add(emailField);
 
 		rightPanel.add(Box.createRigidArea(new Dimension(0, 30)));
@@ -182,6 +199,28 @@ public class LoginPage {
 		passwordField.setFont(new Font("Arial", Font.PLAIN, 22));
 		passwordField.setMaximumSize(new Dimension(Integer.MAX_VALUE, 50));
 		passwordField.setPreferredSize(new Dimension(0, 50));
+		// Set placeholder for password
+		passwordField.setForeground(Color.GRAY);
+		passwordField.setEchoChar((char)0);
+		passwordField.setText("Enter your password");
+		passwordField.addFocusListener(new java.awt.event.FocusAdapter() {
+			public void focusGained(java.awt.event.FocusEvent e) {
+				String pwd = new String(passwordField.getPassword());
+				if (pwd.equals("Enter your password")) {
+					passwordField.setText("");
+					passwordField.setForeground(Color.BLACK);
+					passwordField.setEchoChar('\u2022');
+				}
+			}
+			public void focusLost(java.awt.event.FocusEvent e) {
+				String pwd = new String(passwordField.getPassword());
+				if (pwd.isEmpty()) {
+					passwordField.setForeground(Color.GRAY);
+					passwordField.setEchoChar((char)0);
+					passwordField.setText("Enter your password");
+				}
+			}
+		});
 
 		// Panel for password field and show/hide icon
 		// Password field row (input + show/hide icon)
